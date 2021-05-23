@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container div {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+td {
+  text-align: center;
+  border: 1px solid gray;
+}
+
+table th {
+  height: 30px;
+  background-color: #e5e8e8;
+  font-family: "Courgette", cursive;
+}
+
+table td {
+  width: 30px;
+  height: 18px;
+}
+
+td.weekName {
+  background-color: #ffe4c4;
+}
+
+td.weekend {
+  background-color: #fdf5e6;
+}
+
+td.events {
+  background-color: #f4d03f;
+}
+
+td.mute {
+  color: #a7a7a7;
+}
+
+td.today {
+  border-radius: 50%;
+  background-color: #ff5e00;
+}
+
+/*** json oroh heseg ***/
+.container_json {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.container_json div {
+  width: 1060px;
+  height: auto;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.container_json th {
+  height: 30px;
+  background-color: #e5e8e8;
+  font-family: "Courgette", cursive;
+  border: 1px solid gray;
+}
+
+.container_json td {
+  border: 1px solid gray;
+  height: 20px;
+  text-align: center;
+}
+
+.container_json td:nth-child(odd) {
+  width: 120px;
+  background-color: #fdf5e6;
+  font-family: "Courgette", cursive;
+}
+
+.container_json td:nth-child(even) {
+  width: 410px;
+  font-family: "Scheherazade", serif;
+  text-align: justify;
+  padding: 3px 10px 3px 10px;
+}
